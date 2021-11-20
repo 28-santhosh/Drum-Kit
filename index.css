@@ -1,0 +1,86 @@
+body{
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  background-color: #000000;
+}
+h1 {
+  font-size: 60px;
+  color: #7ab7c2;
+  font-family: Century Gothic ;
+  text-shadow: 3px 0 #FFFFFF;
+}
+.b {
+  background-image: url("bass.png");
+  background-position: center ;
+  background-size: 100px;
+}
+
+.f {
+  background-image: url("floor drum.png");
+  background-position: bottom ;
+  background-size: 80px;
+}
+
+.s {
+  background-image: url("snare-drum.png");
+  background-position: center ;
+  background-size: 90px;
+}
+
+.t {
+  background-image: url("tomtom.png");
+  background-position: center ;
+  background-size: 120px;
+}
+
+.h {
+  background-image: url("hi hat.png");
+  background-position: center ;
+  background-size: 90px;
+}
+
+.c {
+  background-image: url("crash drum.PNG");
+  background-position: center ;
+  background-size: 80px;
+  
+}
+
+.r {
+  background-image: url("ride.png");
+  background-position: center ;
+  background-size: 100px;
+  
+}
+.container{
+  margin: 10% auto;
+}
+.animation {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+.button {
+  outline: none;
+  border: 5px solid black;
+  font-size: 25px;
+  font-family: 'Century Gothic';
+  line-height: 2;
+  font-weight: 900;
+  color: hsl(340, 38%, 63%);
+  text-shadow: 3px 0 #00080a;
+  border-radius: 40px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
+.button:hover {
+  background-color: white
+}
+
+.button:active {
+  background-color: #000000;
+  transform: translateY(4px);
+}
